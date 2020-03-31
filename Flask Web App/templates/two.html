@@ -1,0 +1,171 @@
+
+<!--The CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/styles5.css') }}">
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>2Page</title>
+</head>
+<body>
+
+
+    <!--The NAVBAR-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Cruise Inc</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <!--HEEEEEREEE-->
+      <li class="nav-item active">
+        <a class="nav-link" href="{{url_for('home') }}">EntryPage<span class="sr-only">(current)</span></a>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link" href="{{url_for('two') }}">2Page</a>
+      </li>
+
+
+     <li class="nav-item">
+        <a class="nav-link" href="{{url_for('three') }}">3Page</a>
+      </li>
+     
+     
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+      </br>
+	<body>
+		 <div class="container">
+		   <div class="shadow-none p-3 mb-5 bg-primary text-white rounded">Mary's Scheduler App Layout</div> 
+
+
+		    <!--FIRST NAME LAST NAME-->
+			<form>
+		      <div class="row">
+		        <div class="col">
+		          <input type="text" class="form-control" placeholder="First name">
+		        </div>
+		        <div class="col">
+		          <input type="text" class="form-control" placeholder="Last name">
+		        </div>
+		      </div>
+		    </form>
+
+		    <!--GENDER RADIO-->
+		 <div class="container">
+		    <div class="row">
+		    	<div class="col">
+				    <label for="Gender">Gender:</label>
+				    	</div>
+				<div class="col">
+				    <label for="Male">Male</label>
+				    <input type="radio" name="Male">
+				</div>
+				<div class="col">
+				    <label for="Female">Female</label>
+				    <input type="radio" name="Female">
+				</div>
+				</div>
+			</div>
+
+		    <!--OCCUPATION-->
+		    <form>
+		    	<div class="row">
+		          <div class="col">
+		          <input type="text" class="form-control" placeholder="Occupation">
+		        </div>
+		    </form>
+
+		    <!--TYPE OF SHOOT-->
+		    <div class="btn-group">
+			  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+			    Category of Shoot
+			  </button>
+			  <div class="dropdown-menu dropdown-menu-lg-right">
+			    <button class="dropdown-item" type="button">Executive</button>
+			    <button class="dropdown-item" type="button">Headshots</button>
+			    <button class="dropdown-item" type="button">New Models</button>
+			    <button class="dropdown-item" type="button">Portraiture</button>
+			    <button class="dropdown-item" type="button">Comp Cards</button>
+			    <button class="dropdown-item" type="button">Senior Session</button>
+			    <button class="dropdown-item" type="button">Glamour</button>
+			    <button class="dropdown-item" type="button">Pageant</button>
+			  </div>
+			</div>
+
+				</br></br>
+
+			<!--DATE-->
+			 <div class="container">
+				<div class="row">
+				  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Day
+				  </button>
+				  <div class="dropdown-menu">
+				    <a class="dropdown-item" href="#">Sunday</a>
+				    <a class="dropdown-item" href="#">Monday</a>
+				    <a class="dropdown-item" href="#">Tuesday</a>
+				    <a class="dropdown-item" href="#">Wednesday</a>
+				    <a class="dropdown-item" href="#">Thursday</a>
+				    <a class="dropdown-item" href="#">Friday</a>
+				    <a class="dropdown-item" href="#">Saturday</a>
+				  </div>
+				</div>
+			 </div>
+			</div>
+
+					</br></br>
+
+
+				<div class="container">
+
+				  <div class="row">
+				    <div class="col-sm bg-secondary text-white">
+				      One of three columns
+				    </div>
+				    <div class="col-sm bg-info text-white">
+				      One of three columns
+				    </div>
+				    <div class="col-sm bg-danger text-white">
+				      One of three columns
+				    </div>
+				  </div>
+
+
+				</div>
+
+
+		</div>
+	</body>
+
+	
+			
+
+
+
+
+
+
+    <!-- The JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>

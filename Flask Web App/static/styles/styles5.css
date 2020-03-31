@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Taviraj&display=swap');
+
+
+body {
+	font-family: 'Taviraj', serif;
+	text-align: center;
+}
+
+.lefts {
+	text-align: left;
+}
+
+.sizedown {
+	width: 100px;
+	height: 70px;
+}
+
+.bolden {
+	
+}
